@@ -10,6 +10,6 @@ for(i=1;i<=num;i++)
 {
 sum=sum+i;
 }
-printf("the sum of the natural numbers is:=%d,num,sum");
+printf("the sum of the natural numbers is:=%d",num,sum);
 getch();
 }
