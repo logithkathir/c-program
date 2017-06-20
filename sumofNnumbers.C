@@ -10,6 +10,6 @@ scanf("%d",&num);
 {
 sum=sum+num;
 }
-printf("the sum of N numbers=%d,sum\n");
+printf("the sum of N numbers=%d",sum);
 return 0;
 }
