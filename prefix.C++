@@ -1,6 +1,6 @@
-#include<stdio.h>
-#include<conio.h>
-#include<stdlib.h>
+#include<iostream.h>
+#include<bits/std.h>
+using namespace std;
 int findMinLength(string arr[],int n)
 {
 int min=INT_MAX;
@@ -42,8 +42,8 @@ sting arr[]={"geeks for geeks","geeks","geek","geezer"};
 int n=sizeof(arr/sizeofarr1[0]);
 string ans=commonprefix(arr,n)
 if(ans.length())
-printf("the longest common prefix is /n");
+cout<<"the longest common prefix is"<<ans;
 else
-printf("there is no longest common prefix /n");
+cout<<"there is no longest common prefix";
 return 0;
 }
